@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "next/core-web-vitals",
     "turbo",
     "prettier",
@@ -13,5 +14,7 @@ module.exports = {
     babelOptions: {
       presets: [require.resolve("next/babel")],
     },
+    tsconfigRootDir: __dirname,
+    project: ["../../apps/*/tsconfig.json"],
   },
 };
