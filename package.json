@@ -14,6 +14,6 @@
     "prettier": "^3.0.0",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.15.5",
+  "packageManager": "pnpm@8.15.6",
   "name": "monorepo-apps"
 }
