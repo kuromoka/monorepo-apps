@@ -44,10 +44,10 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
-        version: 20.12.8
+        version: 20.12.11
       '@types/react':
         specifier: ^18.0.22
-        version: 18.3.1
+        version: 18.3.2
       '@types/react-dom':
         specifier: ^18.0.7
         version: 18.3.0
@@ -65,10 +65,10 @@ importers:
     dependencies:
       '@types/node':
         specifier: ^20.0.0
-        version: 20.12.8
+        version: 20.12.11
       '@types/react':
-        specifier: 18.3.1
-        version: 18.3.1
+        specifier: 18.3.2
+        version: 18.3.2
       '@types/react-dom':
         specifier: 18.3.0
         version: 18.3.0
@@ -117,10 +117,10 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
-        version: 20.12.8
+        version: 20.12.11
       '@types/react':
         specifier: ^18.0.22
-        version: 18.3.1
+        version: 18.3.2
       '@types/react-dom':
         specifier: ^18.0.7
         version: 18.3.0
@@ -155,7 +155,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: ^18.2.0
-        version: 18.3.1
+        version: 18.3.2
       '@types/react-dom':
         specifier: ^18.2.0
         version: 18.3.0
@@ -338,8 +338,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@20.12.8':
-    resolution: {integrity: sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==}
+  '@types/node@20.12.11':
+    resolution: {integrity: sha512-vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -347,8 +347,8 @@ packages:
   '@types/react-dom@18.3.0':
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
 
-  '@types/react@18.3.1':
-    resolution: {integrity: sha512-V0kuGBX3+prX+DQ/7r2qsv1NsdfnCLnTgnRJ1pYnxykBhGMz+qj+box5lq7XsO5mtZsBqpjwwTu/7wszPfMBcw==}
+  '@types/react@18.3.2':
+    resolution: {integrity: sha512-Btgg89dAnqD4vV7R3hlwOxgqobUQKgx3MmrQRi0yYbs/P0ym8XozIAlkqVilPqHQwXs4e9Tf63rrCgl58BcO4w==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -2076,7 +2076,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@20.12.8':
+  '@types/node@20.12.11':
     dependencies:
       undici-types: 5.26.5
 
@@ -2084,9 +2084,9 @@ snapshots:
 
   '@types/react-dom@18.3.0':
     dependencies:
-      '@types/react': 18.3.1
+      '@types/react': 18.3.2
 
-  '@types/react@18.3.1':
+  '@types/react@18.3.2':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
